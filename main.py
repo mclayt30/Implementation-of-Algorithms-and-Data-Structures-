@@ -1,5 +1,5 @@
 import numpy as np
-from SortingAlgorithms import Sorting 
+from ClassFiles import SortingAlgorithms 
     
 
 def findSecondMinimum(self): # NEED TO IMPLEMENT
@@ -15,7 +15,6 @@ size = 10
 startArray = np.random.randint(10, size = (size))
 startArray = list(startArray)
 print(str(startArray) + "\n")
-sort = Sorting()
-#sort = Sorting.#Sorting(startArray)
+sort = SortingAlgorithms.Sorting()
 sortedArray = sort.mergeSort(startArray)
 print(sortedArray)
