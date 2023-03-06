@@ -5,8 +5,7 @@ class Sorting:
     #     return
     
     def __init__(self):
-        return
-             
+        return             
     
     def mergeSort(self, array):
         if(len(array) > 1):
@@ -40,6 +39,18 @@ class Sorting:
                 k += 1
         return array         
     
-        
+    def insertionSort(self):
+        return
+    
+    def quickSort(self):
+        return
+    
+    def heapSort(self):
+        return
+    
+    def sequentialSearch(self):
+        return
+    
+  
         
     
