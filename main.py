@@ -1,5 +1,6 @@
 import numpy as np
 from ClassFiles import SortingAlgorithms 
+from ClassFiles import DataStructures 
     
 
 def findSecondMinimum(self): # NEED TO IMPLEMENT
